@@ -1,0 +1,8 @@
+from random import *
+t = int(10)
+print(t)
+for ll in range(t):
+    n = int(1000)
+    maxv = int(100)
+    print(n)
+    print(" ".join([str(randrange(maxv)) for _ in range(n)]))
